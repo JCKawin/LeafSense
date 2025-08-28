@@ -1,4 +1,6 @@
-tensorflow
-kaggle
-keras
-kagglehub
+opencv-python==4.8.1.78
+tk
+numpy==1.24.3
+tensorflow==2.12.1
+keras==2.12.0
+

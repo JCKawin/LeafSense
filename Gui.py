@@ -250,7 +250,7 @@ class LeafSenseApp:
         self.accent_color = "#00c851"
         self.secondary_color = "#4CAF50"
         self.text_color = "#ffffff"
-        self.text_secondary = "#b0b0b0"
+        self.text_secondary = "#bcbcbc"
         
         # Initialize pages
         self.current_page = None
@@ -428,7 +428,7 @@ class LeafSenseApp:
         left_frame.pack(side="left", fill="both", expand=True, padx=(0, 20))
         
         # Drag & drop area
-        self.upload_area = tk.Frame(left_frame, bg="#3a3a3a", height=300, bd=2)
+        self.upload_area = tk.Frame(left_frame, bg="#3a3a3a", height=300, width=400, bd=2)
         self.upload_area.pack(fill="x", pady=(0, 20))
         self.upload_area.pack_propagate(False)
         
