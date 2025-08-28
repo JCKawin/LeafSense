@@ -1,0 +1,15 @@
+0 Tomato_healthy
+1 Tomato_Mosaic_virus
+2 Tomato_YellowLeaf_Curl_Virus
+3 Tomato_Target_Spot
+4 Tomato_spider_mites_Two_spotted
+5 Tomato_Septoria
+6 Tomato_Leaf_Mold
+7 Tomato_Late_blight
+8 Tomato_Early_blight
+9 Tomato_Bacterial_spot
+10 Potato_healthy
+11 Potato_Late_blight
+12 Potato_Early_blight
+13 Pepper_bell_healthy
+14 Pepper_bell_Bacterial_spot
