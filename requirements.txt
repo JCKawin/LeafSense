@@ -1,5 +1,5 @@
 opencv-python==4.8.1.78
-tkinter
+tk
 numpy==1.24.3
 tensorflow==2.12.1
 keras==2.12.0
