@@ -2,6 +2,7 @@ import customtkinter as ctk
 from tkinter import filedialog
 from PIL import Image, ImageTk
 import os
+from classifier import Classify
 
 # Set the appearance mode and default color theme
 ctk.set_appearance_mode("dark")
@@ -90,10 +91,10 @@ class App(ctk.CTk):
 
     def analyze_image(self):
         if self.current_image:
-            # TODO: Add your image analysis code here
+            prediction , ind = Classify(self.current_image)
             self.status_label.configure(text="Status: Analyzing image...")
             # For now, just show a placeholder message
-            self.status_label.configure(text="Status: Analysis complete! (Placeholder)")
+            self.status_label.configure(text=f"Status: Analysis complete! {ind},{prediction})
 
 if __name__ == "__main__":
     app = App()

@@ -12,11 +12,7 @@ def Classify(path):
 
     if img is not None:
         predictions, index = myClassifier.getPrediction(img)
-        print("Predictions:", predictions)
-        print("Index:", index)
+        return predictions , index
         
-        cv2.imshow("Image", img)
-        cv2.waitKey(0)  # Wait for any key press
-        cv2.destroyAllWindows()
     else:
         print("Error: Could not load image from", image_path)
