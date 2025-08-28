@@ -6,15 +6,8 @@ ________________________________________
 •	🎯 Classifies into: Healthy, Early Blight, Late Blight.<br>
 •	📊 Provides confidence score for predictions.<br>
 •	📈 Increases the Industrial yeld by 40%<br>
+•	💉 suggests appropriaate treatment for the plant<br>
 •	✨ Hygenic procesing of the products<br>
-________________________________________
-📂 Project Structure
-potato-disease-detector/<br>
-│── models/                 # Saved trained model (potato_disease_model.h5)<br>
-│── data/                   # Dataset (Potato leaf images)<br>
-│── train.py                # Training script (optional)<br>
-│── requirements.txt        # Dependencies<br>
-│── README.md               # Documentation<br>
 ________________________________________
 🚀 Installation & Setup<br>
 1. Clone Repository<br>
