@@ -753,9 +753,7 @@ class LeafSenseApp:
         if confidence_percent >= 60:
             messagebox.showinfo("Analysis Complete", 
                               f"✅ Analysis completed!\n\n"
-                              f"Disease: {disease_info.get('name', 'Unknown')}\n"
-                              f"Confidence: {confidence_percent:.1f}%\n"
-                              f"Urgency: {disease_info.get('urgency', 'See results')}")
+                              )
         else:
             messagebox.showwarning("Low Confidence", 
                                  f"⚠️ Low confidence result ({confidence_percent:.1f}%)\n\n"
