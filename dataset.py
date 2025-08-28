@@ -6,8 +6,8 @@ from tensorflow.keras import layers, models
 path = kagglehub.dataset_download("emmarex/plantdisease")
 print("Path to dataset files:", path)
 
-train_path = path + "/PlantVillage/Train"
-test_path  = path + "/PlantVillage/Test"
+train_path = path + "\\PlantVillage\\Train"
+test_path  = path + "\\PlantVillage\\Test"
 
 # 2. Load dataset
 train_ds = tf.keras.utils.image_dataset_from_directory(
