@@ -11,8 +11,8 @@ ________________________________________
 ________________________________________
 🚀 Installation & Setup<br>
 1. Clone Repository<br>
-git clone https://github.com/yourusername/potato-disease-detector.git<br>
-cd potato-disease-detector<br>
+<code>git clone https://github.com/JCKawin/LeafSense.git </code>
+<code>cd LeafSense </code>
 2. Install Dependencies<br>
 pip install -r requirements.txt<br>
 3. Run Tool<br>
