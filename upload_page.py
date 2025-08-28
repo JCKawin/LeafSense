@@ -94,7 +94,7 @@ class App(ctk.CTk):
             prediction , ind = Classify(self.current_image)
             self.status_label.configure(text="Status: Analyzing image...")
             # For now, just show a placeholder message
-            self.status_label.configure(text=f"Status: Analysis complete! {ind},{prediction})
+            self.status_label.configure(text=f"Status: Analysis complete! {ind},{prediction}")
 
 if __name__ == "__main__":
     app = App()
