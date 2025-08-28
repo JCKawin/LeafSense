@@ -1,6 +1,10 @@
-import customtkinter as ctk
-from PIL import Image, ImageTk
 import os
+# Set TensorFlow environment variables before importing other modules
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # Suppress TensorFlow logging
+
+import customtkinter as ctk
+from PIL import Image
 from upload_page import App as UploadPage
 
 class HomePage(ctk.CTk):
