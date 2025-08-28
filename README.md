@@ -65,8 +65,8 @@ ________________________________________
 This project is licensed under the GNU GPL-3.0 License – free to use and modify.<br>
 ________________________________________
 👨‍💻 Authors<br>
-•	JCKAWIN– GitHub Profile<br>
-•	GURU KAMALESH –<br>
-•	ADITYA–<br>
-•	RAGHAV–<br>
+•	JCKAWIN– [GitHub Profile](https://github.com/JCKawin) <br>
+•	GURU KAMALESH – [GitHub Profile](https://github.com/guru-kamalesh)<br>
+•	ADITYA–[GitHub Profile](https://github.com/adithiyaks)<br>
+•	RAGHAV–[GitHub Profile](raghavkrishnab2025-max)<br>
 
