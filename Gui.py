@@ -240,7 +240,7 @@ class LeafSenseApp:
     def __init__(self, root):
         self.root = root
         self.root.title("LeafSense - AI Disease Detector")
-        self.root.geometry("1000x700")
+        self.root.geometry("1300x900")
         self.root.configure(bg="#1a1a1a")
         self.root.resizable(True, True)
         
@@ -551,7 +551,7 @@ class LeafSenseApp:
             photo = ImageTk.PhotoImage(image)
             
             image_label = tk.Label(self.preview_frame, image=photo, bg="#3a3a3a")
-            image_label.image = photo  # Keep a reference
+            image_label.image = photo  # type: ignore # Keep a reference
             image_label.pack(expand=True)
             
             # Show filename
@@ -795,6 +795,7 @@ class LeafSenseApp:
 def main():
     root = tk.Tk()
     app = LeafSenseApp(root)
+    
     root.mainloop()
 
 

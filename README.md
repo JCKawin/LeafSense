@@ -60,6 +60,6 @@ ________________________________________
 👨‍💻 Authors<br>
 •	JCKAWIN– [GitHub Profile](https://github.com/JCKawin) <br>
 •	GURU KAMALESH – [GitHub Profile](https://github.com/guru-kamalesh)<br>
-•	ADITYA–[GitHub Profile](https://github.com/adithiyaks)<br>
-•	RAGHAV–[GitHub Profile](raghavkrishnab2025-max)<br>
+•	ADITHIAYA–[GitHub Profile](https://github.com/adithiyaks)<br>
+•	RAGHAV–[GitHub Profile](https://github.com/raghavkrishnab2025-max)<br>
 
